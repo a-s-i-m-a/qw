@@ -1,0 +1,21 @@
+@import "react-toastify/dist/ReactToastify.min.css";
+
+.Toastify__toast {
+    @apply p-0 relative overflow-visible top-0 whitespace-nowrap shadow-none;
+    border-radius: 20px;
+}
+.Toastify__toast-container {
+    /* @apply p-2 w-auto; */
+}
+.Toastify__toast-container--top-right {
+    @apply top-30p right-30p p-0;
+}
+.Toastify__toast-body {
+    @apply p-0 text-14 leading-5 font-normal text-white;
+}
+.Toastify__toast--error {
+    @apply bg-danger;
+}
+.Toastify__toast--success {
+    @apply bg-green-main;
+}

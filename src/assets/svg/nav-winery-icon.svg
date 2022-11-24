@@ -1,0 +1,10 @@
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16.5" cy="24.5" r="2.5" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="14.5" cy="19.5" r="2.5" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="2.5" transform="matrix(-1 0 0 1 19.5 19.5)" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="10.5" cy="15.5" r="2.5" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="2.5" transform="matrix(-1 0 0 1 23.5 15.5)" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="2.5" transform="matrix(-1 0 0 1 17.5 14.5)" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 11C17 9.33333 17 6 12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.0104 11.0104C21.6435 12.3772 18.7677 11.7175 18.7677 11.7175C18.7677 11.7175 18.108 8.84171 19.4748 7.47487C20.8417 6.10804 23.7175 6.76777 23.7175 6.76777C23.7175 6.76777 24.3772 9.64357 23.0104 11.0104Z" fill="#F5F5FA" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,103 @@
+{
+    "name": "qvino-admin-web",
+    "version": "0.0.1",
+    "private": true,
+    "sideEffects": false,
+    "dependencies": {
+        "@craco/craco": "^7.0.0",
+        "@hookform/resolvers": "^2.6.1",
+        "@popperjs/core": "^2.9.2",
+        "@tailwindcss/line-clamp": "^0.2.1",
+        "@tailwindcss/postcss7-compat": "^2.2.4",
+        "@types/googlemaps": "^3.43.3",
+        "@types/react-beautiful-dnd": "^13.1.2",
+        "@types/react-cropper": "^1.3.1",
+        "@types/react-router-config": "^5.0.2",
+        "@types/recharts": "^1.8.23",
+        "@types/valid-url": "^1.0.3",
+        "autoprefixer": "9",
+        "axios": "^0.21.1",
+        "classnames": "^2.3.1",
+        "dayjs": "^1.10.6",
+        "framer-motion": "^4.1.17",
+        "google-map-react": "^2.1.10",
+        "i18next": "^20.3.2",
+        "i18next-browser-languagedetector": "^6.1.2",
+        "i18next-http-backend": "^1.2.6",
+        "joi": "^17.4.1",
+        "lodash.debounce": "^4.0.8",
+        "mobx": "^6.3.2",
+        "mobx-react-lite": "^3.2.0",
+        "postcss": "^7.0.39",
+        "react": "^17.0.2",
+        "react-beautiful-dnd": "^13.1.0",
+        "react-cropper": "^2.1.8",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.12.2",
+        "react-i18next": "^11.11.0",
+        "react-number-format": "^4.6.3",
+        "react-paginate": "^7.1.3",
+        "react-popper": "^2.2.5",
+        "react-router-config": "^5.1.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^5.0.1",
+        "react-select": "^4.3.1",
+        "react-toastify": "^7.0.4",
+        "recharts": "^0.22.5",
+        "resize-observer-polyfill": "^1.5.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+        "typescript": "^4.3.4",
+        "valid-url": "^1.0.9"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject",
+        "lint": "eslint \"**/*.{ts,tsx}\"",
+        "prepare": "husky install",
+        "pre-commit": "lint-staged"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ],
+        "rules": {
+            "no-unused-vars": "warn"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/google-map-react": "^2.1.3",
+        "@types/lodash.debounce": "^4.0.6",
+        "@types/node": "^12.0.0",
+        "@types/react": "^17.0.4",
+        "@types/react-dom": "^17.0.3",
+        "@types/react-paginate": "^7.1.0",
+        "@types/react-router-dom": "^5.1.6",
+        "@types/react-select": "^4.0.16",
+        "husky": "^6.0.0",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1",
+        "pretty-quick": "^3.1.0",
+        "tailwindcss-break": "^1.0.0"
+    },
+    "lint-staged": {
+        "**/*.js": [
+            "./node_modules/.bin/eslint src --max-warnings=0",
+            "pretty-quick --staged"
+        ]
+    }
+}

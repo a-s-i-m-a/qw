@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./assets/css-overrides/react-toastify.css";
+
+@layer base {
+    html,
+    body {
+        @apply font-primary text-dark-main text-base m-0 p-0;
+    }
+
+    button,
+    button:focus {
+        @apply outline-none;
+    }
+    a {
+        @apply outline-none focus:outline-none;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    *:focus {
+        outline: none;
+    }
+
+    button:disabled {
+        cursor: default;
+    }
+
+    .upload:hover .upload-placeholder {
+        opacity: 1;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #f5f5fa inset !important;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.tab--item::before {
+    display: block;
+    content: attr(title);
+    font-weight: 600;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
